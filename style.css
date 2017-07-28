@@ -1,0 +1,27 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.divslider{
+  max-width: 980px;
+  margin: auto;
+  margin-top: 16px!important;
+  margin-bottom: 16px!important;
+}
+
+.imgslider{
+
+  
+}
