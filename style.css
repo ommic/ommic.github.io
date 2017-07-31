@@ -9,6 +9,8 @@ body {
 
 
 article{
+  margin-top:110px;
+  margin-bottom: 20px;
 
 }
 p {
@@ -60,9 +62,9 @@ hr {
   border: none;
   height: 3px;
   /* Set the hr color */
-  color: #FFF;
+  color: #ff6142;
   /* old IE */
-  background-color: #FFF;
+  background-color: #ff6142;
   /* Modern Browsers */
 }
 .navbar {
@@ -89,6 +91,18 @@ hr {
 .divstyle{
   style="max-width: 85%; margin-left:auto;margin-right:auto;"
 }
+.contact h3{
+   padding-bottom: 0px;
+}
+.contact td{
+padding: : 0px;
+text-align:center;
+vertical-align: text-top;
+}
+.contact tr{
+  padding: 0px;
+}
+
 
 .navbar a:hover{
   color: #fff
@@ -119,6 +133,7 @@ float: left;
   padding: 15px;
 }
 footer {
+  float: bottom;
   align-content: right;
   align-items: right;
   padding: 5px;
@@ -133,6 +148,16 @@ footer {
 }
 .footer{
 
+}
+
+.footer{
+  color: #ff6142;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
 }
 .blackbackground{
 background-color: #333;

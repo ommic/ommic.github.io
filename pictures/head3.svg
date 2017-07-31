@@ -17,11 +17,24 @@
    id="svg5102"
    inkscape:version="0.92.1 r15371"
    sodipodi:docname="head3.svg"
-   inkscape:export-filename="C:\Users\Danielle\Documents\GitHub\ommic.github.io\pictures\heading1.png"
+   inkscape:export-filename="C:\Users\Danielle\Documents\GitHub\ommic.github.io\pictures\heading3.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
-     id="defs5096" />
+     id="defs5096">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5805">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.03400003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5807"
+         width="661.42432"
+         height="264.54935"
+         x="0.055566847"
+         y="29.81576"
+         ry="0" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -31,15 +44,15 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.46227873"
      inkscape:cx="1299.5335"
-     inkscape:cy="150.93119"
+     inkscape:cy="588.9786"
      inkscape:document-units="mm"
      inkscape:current-layer="g5179"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
-     inkscape:window-x="2551"
-     inkscape:window-y="624"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5099">
@@ -2789,13 +2802,15 @@ Y28NM/1kb253MxUwleJfzuX0vrfxuXLl1Lmul9Xpcs+Hrpeel9bl/wATNS/+JxL/AInpox38Hb+R
        preserveAspectRatio="none"
        height="441.64841"
        width="662.4726"
-       style="stroke-width:0.95853019" />
+       style="stroke-width:0.95853019"
+       clip-path="url(#clipPath5805)"
+       transform="translate(-0.05556685,2.0625177)" />
     <rect
        style="fill:#333333;fill-opacity:0.58823529;stroke:#000000;stroke-width:0.06418665;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5668"
        width="354.00424"
        height="128.51569"
-       x="307.422"
+       x="307.90494"
        y="100.45047"
        ry="37.798733" />
     <flowRoot
@@ -2824,7 +2839,7 @@ Y28NM/1kb253MxUwleJfzuX0vrfxuXLl1Lmul9Xpcs+Hrpeel9bl/wATNS/+JxL/AInpox38Hb+R
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato" /></flowRegion><flowPara
          id="flowPara4504"></flowPara></flowRoot>    <g
        id="g4538"
-       transform="matrix(1.6667156,0,0,1.6667156,28.671033,-183.89532)">
+       transform="matrix(1.6667156,0,0,1.6667156,28.671033,-176.31823)">
       <g
          id="g5138"
          transform="translate(-28.44494)">
@@ -2833,30 +2848,19 @@ Y28NM/1kb253MxUwleJfzuX0vrfxuXLl1Lmul9Xpcs+Hrpeel9bl/wATNS/+JxL/AInpox38Hb+R
           <text
              id="text4508"
              y="199.49179"
-             x="210.19551"
+             x="302.18671"
              style="font-style:normal;font-weight:normal;font-size:14.56767178px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.09257543"
              xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff6142;fill-opacity:1;stroke-width:1.09257543"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:#ff6142;fill-opacity:1;stroke-width:1.09257543"
                y="199.49179"
-               x="210.19551"
+               x="302.18671"
                sodipodi:role="line"
                id="tspan4552">Application for speakers now</tspan><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff6142;fill-opacity:1;stroke-width:1.09257543"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:#ff6142;fill-opacity:1;stroke-width:1.09257543"
                y="217.95879"
-               x="210.19551"
+               x="302.18671"
                sodipodi:role="line"
                id="tspan5216">open!</tspan></text>
-          <text
-             id="text4508-4"
-             y="231.0713"
-             x="291.88675"
-             style="font-style:normal;font-weight:normal;font-size:14.56767178px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.09257543"
-             xml:space="preserve"><tspan
-               id="tspan4512-3"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ffffff;fill-opacity:1;stroke-width:1.09257543"
-               y="231.0713"
-               x="291.88675"
-               sodipodi:role="line">Ottawa, Ontario </tspan></text>
         </g>
       </g>
     </g>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>OMMIC</title>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="pictures/favicon.png">
+  <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    #mc_embed_signup {
+      background: #fff;
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <img src="pictures/Branding/logoblack.png" class="logoheader" width="100px">
+
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="#news">OMMIC 2017</a>
+    <a href="#news">Past Events</a>
+    <a href="#news">Sponsor Us</a>
+
+    <a href="#contact">Contact</a>
+
+  </div>
+  <center>
+
+
+    <!-- Slideshow at top  -->
+    <div class="w3-content w3-section" style="background-color:#333;" >
+      <img class="mySlides" src="pictures/heading1.png">
+      <img class="mySlides" src="pictures/heading2.png">
+      <img class="mySlides" src="pictures/heading3.png">
+
+  </center>
+  </div>
+<article>
+  <h1>News</h1><hr/>
+
+
+</article>
+
+
+
+
+
+
+
+
+  <footer>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#"   class="footer">Privacy Policy</a>
+    <a href="#"  class="footer">Terms of Service</a>
+
+  </footer>
+</body>
+
+
+<script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {
+      myIndex = 1
+    }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 6000); // Change image every 6 seconds
+  }
+</script>
+
+
+</html>
