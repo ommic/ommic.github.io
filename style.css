@@ -9,7 +9,7 @@ body {
 
 
 article{
-  margin-top:110px;
+  margin-top:100px;
   margin-bottom: 20px;
 
 }
@@ -25,6 +25,8 @@ h1{
 font-size: 30px;
 color: #2d2d2d;
 text-align: center;
+margin-top: 10px;
+padding-top: 10px;
 
 }
 
@@ -104,6 +106,9 @@ vertical-align: text-top;
 }
 
 
+
+
+
 .navbar a:hover{
   color: #fff
 
@@ -137,6 +142,7 @@ footer {
   align-content: right;
   align-items: right;
   padding: 5px;
+  margin-top: 1px;
   color: #ff6142;
   background-color: #333;
   text-align: center;
@@ -176,8 +182,21 @@ table{
 td{
   padding-left: : 20px;
   padding-right: 20px;
+  padding: 10px;
 
 }
+th{
+  text-align: left;
+  border-bottom: 3px solid;
+  border-color: #ff6142;
+}
+
+.agendatable{
+
+}
+/*.agendatable tr:nth-child(even) {
+  background-color: #dddddd;
+}*/
 /*.signup h2{
 
   font-size: 20px;
@@ -222,6 +241,53 @@ td{
   color: white;
 }
 
+.left {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+}
+.right {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.navbutton {
+  background-color: #ff6142;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  width: 300px;
+  margin: 4px 2px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Lato", regular;
+
+/*height: 70px;*/
+}
+
+.pagebutton{
+  background-color: #ff6142;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 200px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Lato", regular;
+}
 
 @media (max-width: 768px) {
   nav {
