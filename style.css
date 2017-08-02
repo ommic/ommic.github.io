@@ -45,6 +45,10 @@ h3{
   color: #ff6142;
 
 }
+h4{
+  font-style: italic;
+  font-size: 10px;
+}
 .divslider{
   max-width: 980px;
   margin: auto;
@@ -194,9 +198,9 @@ th{
 .agendatable{
 
 }
-/*.agendatable tr:nth-child(even) {
+.agendatable tr:nth-child(even) {
   background-color: #dddddd;
-}*/
+}
 /*.signup h2{
 
   font-size: 20px;
@@ -287,6 +291,50 @@ th{
   border-radius: 10px;
   cursor: pointer;
   font-family: "Lato", regular;
+}
+
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 200px;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media (max-width: 768px) {
