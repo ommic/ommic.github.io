@@ -63,6 +63,14 @@ margin-top: 100px!important;
 
 
 }
+.mySlides1{
+width: 100%;
+max-width: 2500px;
+margin-top: 100px!important;
+
+
+
+}
 
 hr {
   border: none;
@@ -186,7 +194,7 @@ table{
 td{
   padding-left: : 20px;
   padding-right: 20px;
-  padding: 10px;
+  /*padding: 10px;*/
 
 }
 th{
@@ -253,6 +261,20 @@ th{
   padding-bottom: 10px;
 
 }
+.leftslide {
+  display: block;
+
+  float: left;
+  max-width:300px;
+  width:50%;
+  margin-top: 10px;
+  margin-right: 10px;
+margin-left: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+
+}
 .right {
   float: right;
   margin-left: 10px;
@@ -295,12 +317,13 @@ th{
 
 
 div.gallery:hover {
-    border: 1px solid #777;
+    /*border: 1px solid #777;*/
 }
 
 div.gallery img {
 width: inherit;
-    height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 div.desc {
@@ -308,9 +331,9 @@ div.desc {
     text-align: center;
 }
 
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 .responsive {
     padding: 0 6px;
