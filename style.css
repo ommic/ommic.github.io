@@ -49,6 +49,10 @@ h4{
   font-style: italic;
   font-size: 10px;
 }
+.toppage{
+  margin-top:
+  0px;
+}
 .divslider{
   max-width: 980px;
   margin: auto;
@@ -142,7 +146,7 @@ vertical-align: text-top;
 
 .logoheader{
 float: left;
-
+width: 100px;
 }
 
 .signup{
@@ -360,7 +364,7 @@ div.desc {
     clear: both;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 771px) {
   nav {
     position: static;
     max-width: 100%;
@@ -369,5 +373,22 @@ div.desc {
     width: 240px;
   }
   article {
-    margin-left: auto;
-  }
+    margin-top: 150px;
+  }}
+
+  @media (max-width: 507px) {
+    nav {
+      position: static;
+      max-width: 100%;
+    }
+    .logoheader {
+max-width: 100px;
+      width: 100%;
+    padding-bottom: 50px;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+        }
+    article {
+      margin-top: 210px;
+    }}
