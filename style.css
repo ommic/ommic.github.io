@@ -416,7 +416,7 @@ padding-bottom: 20px;
     margin: auto;
   }
   article {
-    padding-top: 170px;
+    padding-top: 185px;
   }
   .centerimg {
     align: center;
@@ -451,6 +451,34 @@ padding-bottom: 20px;
   .navbar{
     margin: auto;
     align:center;
+
+  }
+}@media (max-width: 341px) {
+  nav {
+  }
+  .logoheader {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  article {
+    padding-top: 3px;
+  }
+  .centerimg {
+    align: center;
+    display: block;
+
+  }
+  .navbar{
+    margin: auto;
+    align:center;
+
+  }
+  .navbarcolour{
+    margin: auto;
+    align:center;
+    position: static;
 
   }
 }
