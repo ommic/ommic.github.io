@@ -430,3 +430,27 @@ padding-bottom: 20px;
 
   }
 }
+@media (max-width: 533px) {
+  nav {
+  }
+  .logoheader {
+    float: none;
+    width: 30%;
+    display: block;
+    margin: auto;
+  }
+  article {
+    padding-top: 240px;
+  }
+  .centerimg {
+    align: center;
+    display: block;
+
+  }
+
+  .navbar{
+    margin: auto;
+    align:center;
+
+  }
+}
