@@ -235,8 +235,13 @@ th {
   color: white;
 }
 
+.people{
+  max-width: 400px;
+  width:30%;
+}
+
 .left {
-  display: block;
+  /*display: block;*/
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -259,6 +264,11 @@ th {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.mailingright{
+  display: block;
+  float: right;
 }
 
 .navbutton {

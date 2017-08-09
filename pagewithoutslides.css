@@ -2,8 +2,8 @@ article {
   margin-top: 80px;
   margin-bottom: 20px;
 }
-
-@media (max-width: 1040px) {
+/*Logo on side with 2 lines of text*/
+@media (max-width: 1058px) {
   nav {
   }
   .logoheader {
@@ -20,18 +20,18 @@ article {
 
   }
 }
-
-@media (max-width: 659px) {
+/*Logo on top with 2 lines of text*/
+@media (max-width: 660px) {
   nav {
   }
   .logoheader {
     float: none;
-    width: 30%;
+    width: 200px;
     display: block;
     margin: auto;
   }
   article {
-    padding-top: 183.25px;
+    padding-top: 206px;
   }
   .centerimg {
     align: center;
@@ -50,12 +50,12 @@ article {
   }
   .logoheader {
     float: none;
-    width: 30%;
+    width: 200px;
     display: block;
     margin: auto;
   }
   article {
-    padding-top: 240px;
+    padding-top: 0px;
   }
   .centerimg {
     align: center;
@@ -66,14 +66,24 @@ article {
   .navbar{
     margin: auto;
     align:center;
+    position: static;
 
   }
-}@media (max-width: 341px) {
+  .navbarcolour{
+    margin: auto;
+    align:center;
+    display: block;
+    position: static;
+
+  }
+}
+
+@media (max-width: 369px) {
   nav {
   }
   .logoheader {
     float: none;
-    width: 100%;
+    width: 100px;
     display: block;
     margin: auto;
   }
