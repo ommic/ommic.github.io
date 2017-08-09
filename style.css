@@ -8,7 +8,7 @@ body {
 }
 
 article {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
@@ -139,6 +139,8 @@ hr {
 .logoheader {
   float: left;
   width: 100px;
+  padding-top: 12.32px;
+
 }
 
 .signup {
@@ -376,113 +378,55 @@ padding-bottom: 20px;
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media (max-width: 771px) {
-  nav {
-    position: static;
-    max-width: 100%;
-  }
-  .logo {
-    width: 240px;
-  }
-  article {
-    margin-top: 144px;
-  }
-}
 
-@media (max-width: 657px) {
+
+
+
+@media (max-width: 1040px) {
   nav {
-    position: static;
   }
   .logoheader {
-    /*max-width: 100px;*/
-    padding-bottom: 0px;
-    padding: 0px;
-    margin: auto;
-    display: block;
-    align: center;
-    float: none;
+    padding-top: 48.22px;
+
   }
   article {
-    margin-top: 240px;
+    padding-top: 70px;
   }
-  .centerimg {s
-    width: 100%;
-    /*background-color: red;*/
+  .centerimg {
   }
 
   .navbar{
-    align-items: center;
-align:center;
+
   }
 }
-@media (max-width: 533px) {
+
+@media (max-width: 659px) {
   nav {
-    position: static;
   }
   .logoheader {
-    /*max-width: 100px;*/
-    padding-bottom: 0px;
-    padding: 0px;
-    margin: auto;
-    display: block;
-    align: center;
     float: none;
+    width: 30%;
+    display: block;
+    margin: auto;
   }
   article {
-    margin-top: 320px;
+    padding-top: 170px;
   }
-  .centerimg {s
-    width: 100%;
-    /*background-color: red;*/
-  }
-
-  .navbar{
-    align-items: center;
-align:center;
-  }
-}
-@media (max-width: 367px) {
-  nav {
-    position: static;
-  }
-  .logoheader {
-    /*max-width: 100px;*/
-    padding-bottom: 0px;
-    padding: 0px;
-    margin: auto;
-    display: block;
+  .centerimg {
     align: center;
-    float: none;
-  }
-  article {
-    margin-top: 380px;
-  }
-  .centerimg {s
-    width: 100%;
-    /*background-color: red;*/
+    display: block;
+
   }
 
-  .navbar{
-    align-items: center;
-align:center;
+  .navbarcolour{
+    margin: auto;
+    align:center;
+
   }
 }
