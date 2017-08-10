@@ -329,6 +329,11 @@ border-color: #333;
   font-family: "Lato", regular;
 }
 
+.pagebutton:hover {
+  opacity: 0.5;
+
+}
+
 div.gallery:hover {
   /*border: 1px solid #777;*/
 }
@@ -345,7 +350,7 @@ div.desc {
 }
 
 button.accordion {
-  background-color: #eee;
+  background-color: #ddd;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -361,7 +366,7 @@ button.accordion.active{
 
 }
  button.accordion:hover {
-  background-color: #ddd;
+  background-color: #ff6142;
 }
 
 div.panel {
@@ -382,11 +387,16 @@ padding-bottom: 20px;
 }
 
 .imgbut{
-  border-radius: 25px
+  border-radius: 25px;
 }
 /** {
     box-sizing: border-box;
 }*/
+
+.imgbut:hover{
+  opacity:0.5;
+
+}
 
 .responsive {
   padding: 0 6px;
