@@ -49,9 +49,15 @@ h4 {
 }
 
 
-
+aside{
+  display: block;
+  float: right;
+  padding: 10px;
+  background-color: #ddd;
+}
 
 hr {
+
   border: none;
   height: 3px;
   /* Set the hr color */

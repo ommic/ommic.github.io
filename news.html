@@ -16,6 +16,13 @@
       clear: left;
       font: 14px Helvetica, Arial, sans-serif;
     }
+    @media (max-width: 893px) {
+      aside{
+        display: none;
+      }
+    }
+
+
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -52,11 +59,22 @@
   </center>
   </div>
   <article>
+    <aside>
+      <!-- hide .twitter-timeline with a media query when screen is smaller -->
+      <a class="twitter-timeline" data-height="550" data-link-color="#ff6412" href="https://twitter.com/ommiconference">Tweets by ommiconference</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </aside>
+
+
+
     <div style="max-width: 85%; margin-left:auto;margin-right:auto;">
 
   <h1>News</h1><hr/>
-<div style="width:30%;float:right;">
-<a class="twitter-timeline" data-height="500" data-link-color="#ff6412" href="https://twitter.com/ommiconference">Tweets by ommiconference</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<a href=blog/2017-08-19.html><h3>Ottawa's Makerspace</h3></a>
+<p>
+Learn about our take 3 of Ottawa’s Makerspace. You may want to check them all out!
+</p>
+
 <h3>Announcing Ommic 2017</h3>
 <h4>Published: 2017-08-10</h4>
 <p>
@@ -70,10 +88,13 @@
 <p>
   On Saturday October 28th, there will be a design showcase and competition. For more information, please click on the competitions link at the top or the button below.
 </p>
+
+
 <center>
 
 <a href="competitions.html"><button type="button"class="pagebutton"style="width:30%;min-width:200px">More information on the competitions</button></a>
 </center>
+
 <div style="margin-top:100px;display:block;background-color:#ddd;">
 
 <h1>Contact Us</h1>
