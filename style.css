@@ -5,6 +5,7 @@ body, html {
 
 body {
   font-family: "Lato", sans-serif;
+
 }
 
 
@@ -13,6 +14,7 @@ p {
   font-family: "Lato", sans-serif;
   line-height: 28px;
   font-size: 16px;
+  text-shadow: left;
 }
 
 h1 {
@@ -54,6 +56,12 @@ aside{
   float: right;
   padding: 10px;
   background-color: #ddd;
+}
+
+article{
+max-width: 2000px;
+margin: auto;
+
 }
 
 hr {
