@@ -219,7 +219,7 @@ th {
 }
 
 .agendatable {
-  width: 95%;
+
 
 
 }
@@ -227,12 +227,17 @@ th {
 .agendatable tbody{
 }
 .agendatable td{
-  padding: 5px;
+  padding: 20px;
   text-align: center;
-
+width: inherit;
   /*margin-top: 5px;
   margin-bottom: 5px;*/
 
+}
+.agendatable th{
+text-align: center;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .agendatable tr:nth-child(even) {
