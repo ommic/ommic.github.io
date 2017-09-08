@@ -51,7 +51,6 @@ h4 {
 }
 
 
-
 aside{
   display: block;
   float: right;
@@ -204,12 +203,13 @@ footer {
 
 table {
   padding: 10px;
+  border-spacing: 0px;
 }
 
 td {
   padding-left: : 20px;
   padding-right: 20px;
-  /*padding: 10px;*/
+
 }
 
 th {
@@ -218,12 +218,46 @@ th {
   border-color: #ff6142;
 }
 
-.agendatable {}
+.agendatable {
+
+
+
+}
+
+.agendatable tbody{
+}
+.agendatable td{
+  padding: 20px;
+  text-align: center;
+width: inherit;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
+
+}
+.agendatable th{
+text-align: center;
+padding-left: 15px;
+padding-right: 15px;
+}
 
 .agendatable tr:nth-child(even) {
   background-color: #dddddd;
-}
 
+}
+.agenda{
+  text-align: center;
+  margin: auto;
+  font-size: 1.2em;
+border:0px;
+/*border-top: 0px;
+border-bottom: 2px;
+border-left: 0px;
+border-right: 0px;
+
+  border-style: solid;
+  border-color: #ff6142;*/
+
+}
 
 /*.signup h2{
 
