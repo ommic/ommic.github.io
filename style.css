@@ -46,6 +46,8 @@ h4 {
   font-size: 10px;
 }
 
+
+
 .toppage {
   margin-top: 0px;
 }
@@ -193,6 +195,7 @@ footer {
 
 .blackbackground {
   background-color: #333;
+  width: 100%
 }
 
 .blackbackground h1 {
@@ -256,6 +259,21 @@ border-right: 0px;
 
   border-style: solid;
   border-color: #ff6142;*/
+
+}
+
+.bioimg{
+  border-radius: 100px;
+  text-align: left;
+}
+
+.bio td{
+  vertical-align: top;
+}
+
+
+.biohead{
+  color: #333;
 
 }
 
