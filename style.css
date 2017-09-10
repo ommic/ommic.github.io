@@ -46,6 +46,8 @@ h4 {
   font-size: 10px;
 }
 
+
+
 .toppage {
   margin-top: 0px;
 }
@@ -193,6 +195,7 @@ footer {
 
 .blackbackground {
   background-color: #333;
+  width: 100%
 }
 
 .blackbackground h1 {
@@ -256,6 +259,54 @@ border-right: 0px;
 
   border-style: solid;
   border-color: #ff6142;*/
+
+}
+
+.biobox {
+  display: inline-grid;
+  background: #ff6142;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.biobox:hover img {
+  filter: brightness(50%);
+}
+
+.biobox h3 {
+  color: #fff;
+}
+
+.hover-image {
+  position: relative;
+}
+
+.biobox h4 {
+  display: none;
+}
+
+.biobox:hover h4 {
+  color: #fff;
+  display: inline;
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  font-size: 80%;
+}
+
+.bioimg{
+  /*border-radius: 10000px;*/
+  text-align: left;
+}
+
+.bio td{
+  vertical-align: top;
+}
+
+
+.biohead{
+  color: #333;
 
 }
 
