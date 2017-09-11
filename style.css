@@ -262,6 +262,39 @@ border-right: 0px;
 
 }
 
+.biobox {
+  display: inline-grid;
+  background: #ff6142;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.biobox:hover img {
+  filter: brightness(50%);
+}
+
+.biobox h3 {
+  color: #fff;
+}
+
+.hover-image {
+  position: relative;
+}
+
+.biobox h4 {
+  display: none;
+}
+
+.biobox:hover h4 {
+  color: #fff;
+  display: inline;
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  font-size: 80%;
+}
+
 .bioimg{
   /*border-radius: 10000px;*/
   text-align: left;
