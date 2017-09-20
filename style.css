@@ -43,7 +43,8 @@ h3 {
 
 h4 {
   font-style: italic;
-  font-size: 10px;
+  font-size: 0.8em;
+  padding: 3px;
 }
 
 .toppage {
@@ -233,7 +234,7 @@ th {
 .time{
   width: initial;
   padding: 3px !important;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .agendatable tbody{
 }
@@ -244,7 +245,7 @@ width: inherit;
 border: 0px;
 border-bottom:  2px;
 border-style: solid;
-border-color: black;
+border-color:  #ff6142;
   /*margin-top: 5px;
   margin-bottom: 5px;*/
 
@@ -270,6 +271,33 @@ padding-right: 15px;
 border:0px;
 
 }
+.agenda2016{
+border: 0px !important;
+}
+.agenda2016 tbody{
+}
+.agenda2016 ul{
+  list-style-type:none
+}
+.agenda2016 td{
+  padding: 20px;
+  text-align: center;
+width: inherit;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
+
+}
+.agenda2016 th{
+text-align: center;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.agenda2016 tr:nth-child(even) {
+  background-color: #dddddd;
+
+}
+
 
 .green{
   background-color: #8dd0bf !important;
@@ -281,12 +309,17 @@ border:0px;
 .yellow{
   background-color: #fcdf85 !important;
 }
+.grey{
+  background-color: #80746c !important;
+}
 
 .biobox {
   display: inline-grid;
   background: #ff6142;
+  margin:10px;
   margin-left: 16px;
   margin-right: 16px;
+
   border-radius: 10px
 }
 
@@ -304,6 +337,8 @@ border:0px;
 
 .biobox h4 {
   display: none;
+  font-size: 0.7em!important;
+  padding: 5px;
 }
 .biobox p {
   display: none;
@@ -346,6 +381,9 @@ border:0px;
 }
 .bioboxtable h4 {
   display: none;
+  font-size: 0.7em!important;
+  padding: 5px;
+
 }
 .bioboxtable p {
   display: none;
@@ -376,6 +414,7 @@ padding-right: 4px;
     border-radius: 10px;
     width: 180px;
 }
+
 .imgchange{
   border-width: 0px;
     border-radius: 10px;
@@ -392,8 +431,10 @@ padding-right: 4px;
   color: #333;
 
 }
+
  h5{
 margin-top: 5px;
+font-size: 0.8em;
 }
 .buttonchange {
   display: inline-grid;
@@ -413,6 +454,9 @@ margin-top: 5px;
 
 .hover-image {
   position: relative;
+}
+.hover-image:hover h4{
+
 }
 
 .buttonchange h4 {
