@@ -22,133 +22,53 @@ article {
 
 
 /*logo on side with two lines of text*/
-@media (max-width: 1058px) {
-  nav {
-  }
-  .w3-content{
-    margin-top: 70px;
-  }
-  .logoheader {
-    padding-top:15px;
-
-  }
-  article {
-  }
-  .centerimg {
-  }
-
-  .navbar{
-
-  }
-  .navbar a{
-    font-size: 0.8em;
-  }
+@media (max-width: 992px) {
+.w3-content{
+  /*padding-top:*/
 }
 
-
-
-/*Logo on top with two lines of text*/
-@media (max-width: 660px) {
-  nav {
-  }
-  .logoheader {
-    float: none;
-    width: 200px;
-    display: block;
-    margin: auto;
-    padding-top: 5px;
-  }
-  .w3-content{
-    margin-top: 0px;}
-
-  article {
-    padding-top: 10px;
-  }
-  .centerimg {
-    align: center;
-    display: block;
-
-  }
-  .navbar{
-    margin: auto;
-    align:center;
-    }
-
-    .navbarcolour{
-      margin: auto;
-      align:center;
-      position: static;
-
-    }
+.navbar a{
+  font-size: 0.8em;
 }
 
-/*Logo on top with three lines of text*/
-@media (max-width: 533px) {
-  nav {
-  }
-  .logoheader {
-    float: none;
-    width: 200px;
-    display: block;
-    margin: auto;
-    padding-top: 5px;
-  }
-
-  .w3-content{
-    margin-top: 0px;}
-
-  article {
-    padding-top: 10px;
-  }
-  .centerimg {
-    align: center;
-    display: block;
-
-  }
-
-  .navbar{
-    margin: auto;
-    align:center;
-    }
-    .navbarcolour{
-      margin: auto;
-      align:center;
-      position: static;
-
-    }
-
-  }
 }
 
+@media (max-width: 808px) {
+.w3-content{
+  /*padding-top:*/
+}
 
-/*Logo on top with 4 lines of text*/
-@media (max-width: 369px) {
-  nav {
-  }
-  .logoheader {
-    float: none;
-    width: 100px;
-    display: block;
-    /*margin: auto;*/
-  }
-  article {
-    padding-top: 0px;
-  }
-  .centerimg {
-    align: center;
-    display: block;
+.navbar a{
+  font-size: 0.8em;
+}
+nav {
+}
+.logoheader {
+  float: none;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+article {
+  padding-top: 3px;
+}
+.centerimg {
+  align: center;
+  display: block;
 
-  }
-  .navbar{
-    margin: auto;
-    align:center;
-    position: static;
+}
+.navbar{
+  margin: auto;
+  align:center;
+  position: static;
 
-  }
-  .navbarcolour{
-    margin: auto;
-    align:center;
-    position: static;
+}
+.navbarcolour{
+  margin: auto;
+  align:center;
+  display: block;
+  position: static;
 
-  }
+}
+
 }

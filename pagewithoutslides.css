@@ -1,27 +1,19 @@
 article {
-  margin-top: 80px;
+  margin-top: 90px;
   margin-bottom: 20px;
 }
 /*Logo on side with 2 lines of text*/
-@media (max-width: 1058px) {
+@media (max-width: 992px) {
   nav {
   }
-  .logoheader {
-    padding-top: 48.22px;
 
-  }
-  article {
-    padding-top: 70px;
-  }
-  .centerimg {
+  .navbarcolour a{
+    font-size: 0.8em;
   }
 
-  .navbar{
-
-  }
 }
 /*Logo on top with 2 lines of text*/
-@media (max-width: 660px) {
+@media (max-width: 808px) {
   nav {
   }
   .logoheader {
@@ -31,7 +23,7 @@ article {
     margin: auto;
   }
   article {
-    padding-top: 206px;
+    padding-top: 100px;
   }
   .centerimg {
     align: center;
@@ -55,7 +47,8 @@ article {
     margin: auto;
   }
   article {
-    padding-top: 0px;
+    padding-top: 100px;
+    margin: 100px;
   }
   .centerimg {
     align: center;
@@ -70,7 +63,7 @@ article {
 
   }
   .navbarcolour{
-    margin: auto;
+    margin-bottom: 20px;
     align:center;
     display: block;
     position: static;
@@ -98,14 +91,14 @@ article {
   .navbar{
     margin: auto;
     align:center;
-    position: static;
+    position: fixed;
 
   }
   .navbarcolour{
     margin: auto;
     align:center;
     display: block;
-    position: static;
+    position: fixed;
 
   }
 }
