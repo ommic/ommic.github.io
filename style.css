@@ -149,6 +149,11 @@ hr {
 .navbar a:hover {
   color: #fff
 }
+.divider{
+    width:50px;
+    height:auto;
+    display:inline-block;
+}
 
 .main {
   padding: 16px;
